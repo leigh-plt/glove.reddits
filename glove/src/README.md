@@ -1,4 +1,5 @@
 ### Package Contents
+[Original files](https://github.com/stanfordnlp/GloVe/tree/master/src)
 
 To train your own GloVe vectors, first you'll need to prepare your corpus as a single text file with all words separated by one or more spaces or tabs. If your corpus has multiple documents, the documents (only) should be separated by new line characters. Cooccurrence contexts for words do not extend past newline characters. Once you create your corpus, you can train GloVe vectors using the following 4 tools. An example is included in `demo.sh`, which you can modify as necessary.
 
