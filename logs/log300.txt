@@ -1,0 +1,66 @@
+
+$ build/glove -save-file GloVe.Reddit.120B.300D -threads 24 -input-file cooccurrence.shuf.bin -x-max 10 -eta 0.02 -iter 30 -vector-size 300 -binary 2 -vocab-file vocab.txt -verbose 0
+TRAINING MODEL
+Read 10175957534 lines.
+05/26/19 - 01:18.17PM, iter: 001, cost: 0.098727
+05/26/19 - 02:02.11PM, iter: 002, cost: 0.072629
+05/26/19 - 02:45.50PM, iter: 003, cost: 0.067247
+05/26/19 - 03:29.23PM, iter: 004, cost: 0.064577
+05/26/19 - 04:12.47PM, iter: 005, cost: 0.062927
+05/26/19 - 04:56.19PM, iter: 006, cost: 0.061789
+05/26/19 - 05:39.42PM, iter: 007, cost: 0.060951
+05/26/19 - 06:23.52PM, iter: 008, cost: 0.060300
+05/26/19 - 07:07.33PM, iter: 009, cost: 0.059773
+05/26/19 - 07:50.53PM, iter: 010, cost: 0.059337
+05/26/19 - 08:34.28PM, iter: 011, cost: 0.058968
+05/26/19 - 09:17.50PM, iter: 012, cost: 0.058649
+05/26/19 - 10:01.21PM, iter: 013, cost: 0.058372
+05/26/19 - 10:44.36PM, iter: 014, cost: 0.058126
+05/26/19 - 11:28.14PM, iter: 015, cost: 0.057903
+05/27/19 - 12:11.35AM, iter: 016, cost: 0.057703
+05/27/19 - 12:54.49AM, iter: 017, cost: 0.057521
+05/27/19 - 01:38.49AM, iter: 018, cost: 0.057354
+05/27/19 - 02:21.49AM, iter: 019, cost: 0.057202
+05/27/19 - 03:04.53AM, iter: 020, cost: 0.057062
+05/27/19 - 03:48.00AM, iter: 021, cost: 0.056931
+05/27/19 - 04:31.35AM, iter: 022, cost: 0.056808
+05/27/19 - 05:14.57AM, iter: 023, cost: 0.056694
+05/27/19 - 05:58.33AM, iter: 024, cost: 0.056587
+05/27/19 - 06:42.04AM, iter: 025, cost: 0.056484
+05/27/19 - 07:25.34AM, iter: 026, cost: 0.056388
+05/27/19 - 08:09.31AM, iter: 027, cost: 0.056298
+05/27/19 - 08:53.09AM, iter: 028, cost: 0.056212
+05/27/19 - 09:36.40AM, iter: 029, cost: 0.056129
+05/27/19 - 10:19.52AM, iter: 030, cost: 0.056053
+capital-common-countries.txt:
+ACCURACY TOP1: 53.16% (269/506)
+capital-world.txt:
+ACCURACY TOP1: 33.85% (743/2195)
+currency.txt:
+ACCURACY TOP1: 9.35% (81/866)
+city-in-state.txt:
+ACCURACY TOP1: 31.78% (784/2467)
+family.txt:
+ACCURACY TOP1: 69.17% (350/506)
+gram1-adjective-to-adverb.txt:
+ACCURACY TOP1: 32.36% (321/992)
+gram2-opposite.txt:
+ACCURACY TOP1: 39.90% (324/812)
+gram3-comparative.txt:
+ACCURACY TOP1: 91.29% (1216/1332)
+gram4-superlative.txt:
+ACCURACY TOP1: 86.27% (968/1122)
+gram5-present-participle.txt:
+ACCURACY TOP1: 90.53% (956/1056)
+gram6-nationality-adjective.txt:
+ACCURACY TOP1: 63.48% (1015/1599)
+gram7-past-tense.txt:
+ACCURACY TOP1: 67.44% (1052/1560)
+gram8-plural.txt:
+ACCURACY TOP1: 90.99% (1212/1332)
+gram9-plural-verbs.txt:
+ACCURACY TOP1: 66.67% (580/870)
+Questions seen/total: 88.08% (17215/19544)
+Semantic accuracy: 34.05%  (2227/6540)
+Syntactic accuracy: 71.61%  (7644/10675)
+Total accuracy: 57.34%  (9871/17215)

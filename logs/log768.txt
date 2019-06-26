@@ -1,0 +1,71 @@
+
+$ build/glove -save-file GloVe.Reddit.120B.768D -threads 24 -input-file cooccurrence.shuf.bin -x-max 10 -eta 0.012 -iter 35 -vector-size 768 -binary 2 -vocab-file vocab.txt -verbose 0
+TRAINING MODEL
+Read 10175957534 lines.
+06/15/19 - 11:15.21AM, iter: 001, cost: 0.108585
+06/15/19 - 12:50.54PM, iter: 002, cost: 0.074660
+06/15/19 - 02:26.15PM, iter: 003, cost: 0.064283
+06/15/19 - 04:01.31PM, iter: 004, cost: 0.058551
+06/15/19 - 05:36.58PM, iter: 005, cost: 0.055286
+06/15/19 - 07:12.22PM, iter: 006, cost: 0.053175
+06/15/19 - 08:47.36PM, iter: 007, cost: 0.051685
+06/15/19 - 10:22.48PM, iter: 008, cost: 0.050565
+06/15/19 - 11:58.07PM, iter: 009, cost: 0.049692
+06/16/19 - 01:33.14AM, iter: 010, cost: 0.048985
+06/16/19 - 03:08.25AM, iter: 011, cost: 0.048397
+06/16/19 - 04:43.30AM, iter: 012, cost: 0.047900
+06/16/19 - 06:18.30AM, iter: 013, cost: 0.047471
+06/16/19 - 07:53.37AM, iter: 014, cost: 0.047098
+06/16/19 - 09:28.44AM, iter: 015, cost: 0.046766
+06/16/19 - 11:03.47AM, iter: 016, cost: 0.046469
+06/16/19 - 12:38.50PM, iter: 017, cost: 0.046202
+06/16/19 - 02:13.55PM, iter: 018, cost: 0.045959
+06/16/19 - 03:48.59PM, iter: 019, cost: 0.045738
+06/16/19 - 05:24.09PM, iter: 020, cost: 0.045534
+06/16/19 - 06:59.08PM, iter: 021, cost: 0.045347
+06/16/19 - 08:34.18PM, iter: 022, cost: 0.045174
+06/16/19 - 10:09.14PM, iter: 023, cost: 0.045010
+06/16/19 - 11:44.11PM, iter: 024, cost: 0.044859
+06/17/19 - 01:19.04AM, iter: 025, cost: 0.044715
+06/17/19 - 02:54.09AM, iter: 026, cost: 0.044581
+06/17/19 - 04:29.07AM, iter: 027, cost: 0.044454
+06/17/19 - 06:04.09AM, iter: 028, cost: 0.044335
+06/17/19 - 07:39.35AM, iter: 029, cost: 0.044222
+06/17/19 - 09:14.52AM, iter: 030, cost: 0.044117
+06/17/19 - 10:49.52AM, iter: 031, cost: 0.044012
+06/17/19 - 12:24.57PM, iter: 032, cost: 0.043915
+06/17/19 - 02:00.11PM, iter: 033, cost: 0.043821
+06/17/19 - 03:35.21PM, iter: 034, cost: 0.043732
+06/17/19 - 05:10.50PM, iter: 035, cost: 0.043648
+capital-common-countries.txt:
+ACCURACY TOP1: 55.73% (282/506)
+capital-world.txt:
+ACCURACY TOP1: 34.49% (757/2195)
+currency.txt:
+ACCURACY TOP1: 6.70% (58/866)
+city-in-state.txt:
+ACCURACY TOP1: 42.56% (1050/2467)
+family.txt:
+ACCURACY TOP1: 66.40% (336/506)
+gram1-adjective-to-adverb.txt:
+ACCURACY TOP1: 33.27% (330/992)
+gram2-opposite.txt:
+ACCURACY TOP1: 42.12% (342/812)
+gram3-comparative.txt:
+ACCURACY TOP1: 92.87% (1237/1332)
+gram4-superlative.txt:
+ACCURACY TOP1: 88.15% (989/1122)
+gram5-present-participle.txt:
+ACCURACY TOP1: 87.03% (919/1056)
+gram6-nationality-adjective.txt:
+ACCURACY TOP1: 66.79% (1068/1599)
+gram7-past-tense.txt:
+ACCURACY TOP1: 56.41% (880/1560)
+gram8-plural.txt:
+ACCURACY TOP1: 87.16% (1161/1332)
+gram9-plural-verbs.txt:
+ACCURACY TOP1: 57.01% (496/870)
+Questions seen/total: 88.08% (17215/19544)
+Semantic accuracy: 37.97%  (2483/6540)
+Syntactic accuracy: 69.53%  (7422/10675)
+Total accuracy: 57.54%  (9905/17215)
